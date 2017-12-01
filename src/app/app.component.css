@@ -1,0 +1,55 @@
+/*========================================
+				generic
+==========================================*/
+
+
+body{
+	font-family: 'Nunito', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+.no-padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.parallax{
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size:cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+}
+img{
+	border: 2px solid;
+	border-color: transparent;
+}
+
+.hover{
+	background-color: rgba(0, 0, 0, 0.4);
+	overflow: auto;
+}
+.ar-right{
+	background-image: url(/images/arrow-right.PNG);
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 10% 0%;
+}
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+.required {
+  position: relative;
+}
+.required label:after {
+  content:"*";
+  color: red;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

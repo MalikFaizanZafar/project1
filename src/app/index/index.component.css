@@ -1,0 +1,112 @@
+/********************************               Main Landing Page               **********************************/
+
+/*========================================
+				header
+==========================================*/
+
+#header{
+	background-image: url(images/main-banner.jpg);
+	width: 100%;
+}
+#landing-page-title{
+	text-align: center;
+	color: white;
+	padding: 60px 0px;
+}
+#landing-page-title h1{
+	font-size: 70px;
+}
+#color-header{
+	background-image: none;
+	background-color: rgb(202, 202, 202);
+	width: 100%;
+}
+#sellers-header{
+	background-image: url(images/sellers-info-banner-croped.jpg);
+	width: 100%;
+}
+#menu{
+	padding: 20px 0px 0px 0px;
+}
+#menu a{
+	color: white;
+	font-size: 20px;
+}
+#menu a:hover{
+	color: #F28226;
+}
+#menu div{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+.login .btn{
+	background-color: transparent;
+	color: white;
+	border-color: white;
+	font-size: 17px;
+	padding: 4px 15px;
+	float: right;
+}
+.login .btn:hover{
+	background-color: #92D050;
+	border-color: white;
+	transition-duration: 0.3s;
+}
+.google .btn{
+	background-color: #5C72D6;
+	color: white;
+	padding: 0px 10px 0px 0px;
+}
+.google img{
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	border-radius: 2px 0px 0px 2px;
+}
+.facebook .btn{
+	background-color: #3F51B5;
+	color: white;
+	padding: 0px 10px 0px 0px;
+	float: right;
+}
+.facebook img{
+	height: 31px;
+	width: 31px;
+}
+#sellers-go{
+	margin-bottom: 15%;
+}
+#sellers-go div{
+	float: right;
+	text-align: center;
+	padding-left: 10px;
+}
+#sellers-go .btn{
+	border: 1px solid white;
+	border-radius: 5px;
+	font-size: 17px;
+	color: white;
+	padding: 4px 30px;
+	margin-right: 10px;
+	background-color: transparent;
+}
+#sellers-go .btn:hover{
+	background-color: #F28226;
+	transition-duration: 0.3s;
+	border-color: white;
+}
+#nav{
+	padding: 0% 1%;
+	clear: both;
+	margin-bottom: 5%;
+}
+#nav div{
+	background-color: rgba(0, 0, 50, 0.7);
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	height: 70px;
+	border: 1px solid #92D050;
+	font-size: 17px;
+}

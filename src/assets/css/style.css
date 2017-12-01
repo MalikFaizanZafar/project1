@@ -1,0 +1,763 @@
+
+/*========================================
+				generic
+==========================================*/
+
+
+body{
+	font-family: 'Nunito', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+.no-padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.parallax{
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size:cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+}
+img{
+	border: 2px solid;
+	border-color: transparent;
+}
+
+.hover{
+	background-color: rgba(0, 0, 0, 0.4);
+	overflow: auto;
+}
+.ar-right{
+	background-image: url(../images/arrow-right.PNG);
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 10% 0%;
+}
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+.required {
+  position: relative;
+}
+.required label:after {
+  content:"*";
+  color: red;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/********************************               Main Landing Page               **********************************/
+
+/*========================================
+				header
+==========================================*/
+
+#header{
+	background-image: url(../images/main-banner.jpg);
+	width: 100%;
+}
+#landing-page-title{
+	text-align: center;
+	color: white;
+	padding: 60px 0px;
+}
+#landing-page-title h1{
+	font-size: 70px;
+}
+#color-header{
+	background-image: none;
+	background-color: rgb(202, 202, 202);
+	width: 100%;
+}
+#sellers-header{
+	background-image: url(../images/sellers-info-banner-croped.jpg);
+	width: 100%;
+}
+#menu{
+	padding: 20px 0px 0px 0px;
+}
+#menu a{
+	color: white;
+	font-size: 20px;
+}
+#menu a:hover{
+	color: #F28226;
+}
+#menu div{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+.login .btn{
+	background-color: transparent;
+	color: white;
+	border-color: white;
+	font-size: 17px;
+	padding: 4px 15px;
+	float: right;
+}
+.login .btn:hover{
+	background-color: #92D050;
+	border-color: white;
+	transition-duration: 0.3s;
+}
+.google .btn{
+	background-color: #5C72D6;
+	color: white;
+	padding: 0px 10px 0px 0px;
+}
+.google img{
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	border-radius: 2px 0px 0px 2px;
+}
+.facebook .btn{
+	background-color: #3F51B5;
+	color: white;
+	padding: 0px 10px 0px 0px;
+	float: right;
+}
+.facebook img{
+	height: 31px;
+	width: 31px;
+}
+#sellers-go{
+	margin-bottom: 15%;
+}
+#sellers-go div{
+	float: right;
+	text-align: center;
+	padding-left: 10px;
+}
+#sellers-go .btn{
+	border: 1px solid white;
+	border-radius: 5px;
+	font-size: 17px;
+	color: white;
+	padding: 4px 30px;
+	margin-right: 10px;
+	background-color: transparent;
+}
+#sellers-go .btn:hover{
+	background-color: #F28226;
+	transition-duration: 0.3s;
+	border-color: white;
+}
+#nav{
+	padding: 0% 1%;
+	clear: both;
+	margin-bottom: 5%;
+}
+#nav div{
+	background-color: rgba(0, 0, 50, 0.7);
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	height: 70px;
+	border: 1px solid #92D050;
+	font-size: 17px;
+}
+
+/*========================================
+				working
+==========================================*/
+
+#working{
+	text-align: center;
+	color: #1B1B1D;
+	background-color: #F0F0F0;
+	padding: 40px 0px;
+}
+#working img{
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+    overflow: hidden;
+	width: 100%;
+}
+.ar-right{
+	background-image: url(../images/arrow-right.png);
+	padding-top: 7%;
+}
+
+
+/*========================================
+				model
+==========================================*/
+
+#model{
+	text-align: center;
+	color: #1B1B1D;
+	padding: 2% 0%;
+}
+#model div{
+	padding: 2% 10%;
+}
+#model img{
+	border-radius: 5px;
+	width: 100%;
+}
+#model h2{
+	padding: 0% 12%;
+}
+
+
+/*========================================
+				Interect
+==========================================*/
+
+#Interect{
+	text-align: center;
+	background-color: #F0F0F0;
+	color: #1B1B1D;
+	padding: 30px 0px;
+}
+#Interect img{
+	width: 100%;
+	height: 280px;
+	border-radius: 5px;
+}
+
+
+/*========================================
+				prices
+==========================================*/
+
+#prices{
+	background: white;
+	color: black;
+	padding: 2% 0%;
+}
+#prices-img{
+	padding: 30px;
+}
+#prices-img img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+
+
+/*========================================
+				ready
+==========================================*/
+
+
+#ready{
+	text-align: center;
+	color: #1B1B1D;
+	background-color: #92D050;
+}
+#ready img{
+	border-radius: 50%;
+	width: 100%;
+}
+#ready h4{
+	padding: 0px 20%;
+}
+#ready .padding{
+	padding: 0px 12%;
+}
+
+
+
+/*========================================
+				rate
+==========================================*/
+
+#rate{
+	text-align: center;
+	color: #1B1B1D;
+	padding: 1% 0%;
+	text-align: center;
+}
+
+
+
+/*========================================
+				secure
+==========================================*/
+
+
+#secure{
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 10px 0px;
+	background-color: #F0F0F0;
+	color: #1B1B1D;
+}
+#secure img{
+	width: 100%;
+	border-radius: 5px;
+}
+#secure h3{
+	text-align: left;
+}
+
+
+/*========================================
+				footer
+==========================================*/
+
+
+#footer{
+	background-color: #CACACA;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+#footer li{
+	display: inline;
+	padding-right: 3%;
+}
+#footer ul{
+	padding: 0px;
+}
+#footer>div{
+	padding: 1% 10%;
+}
+#footer .fa-facebook-square{
+	color: #3b5998;
+}
+#footer .fa-twitter-square{
+	color: #0084b4;
+}
+#footer .fa-google-plus-square{
+	color: #d34836;
+}
+#footer .fa-youtube-square{
+	color: #bb0000;
+}
+#footer .fa-comments{
+	color: black;
+}
+
+/********************************               Sellers info Page               **********************************/
+
+/*========================================
+				sellers-header
+==========================================*/
+
+#seller-info-menu{
+	padding-top: 20px;
+	text-align: center;
+}
+#seller-info-menu div{
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.seller-login button{
+	background-color: transparent;
+	color: white;
+	border-color: white;
+	float: right;
+}
+.seller-login .btn:hover{
+	background-color: #92D050;
+	border-color: white;
+	transition-duration: 0.3s;
+}
+#sellers-signup div{
+	float: right;
+}
+#sellers-signup a{
+	font-size: 16px;
+	color: white;
+	float: right;
+}
+#title{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}
+#title h1{
+	font-size: 75px;
+}
+#watch{
+	text-align: right;
+	color: white;
+	font-size: 50px;
+}
+
+/*========================================
+         sellers-target-shopper
+==========================================*/
+
+
+#target-shopper{
+	text-align: center;
+	color: #1B1B1D;
+	padding: 3% 0%;
+}
+#target-shopper img{
+	border-radius: 5px;
+	padding: 20px 50px 50px 50px;
+	width: 90%;
+}
+
+
+/********************************               About Us Page               **********************************/
+
+/*========================================
+				Hi there!
+==========================================*/
+#about-intro{
+	text-align: center;
+	padding: 2% 20%;
+}
+#about-intro h4{
+	text-align: left;
+	line-height: 25px;
+	margin: 0px;
+}
+#about-intro h3{
+	margin: 0px;
+}
+
+/*========================================
+    What it means for you the shopper
+==========================================*/
+#about-shoppers{
+	text-align: center;
+	color: #1B1B1D;
+	background-color: #F0F0F0;
+	padding: 40px 0px;
+}
+#about-shoppers img{
+	border-radius: 50%;
+	width: 100%;
+}
+#about-shoppers div{
+	padding: 0% 3%;
+}
+/*========================================
+         Free Ad for a Discount
+==========================================*/
+#free-add{
+	text-align: center;
+	padding: 2% 15% 4% 15%;
+	background-color: #F0F0F0;
+}
+#free-add h4{
+	text-align: left;
+	line-height: 25px;
+}
+
+/********************************               How it works               **********************************/
+
+#how-it-works{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border-bottom: 1px solid black;
+}
+#how-it-works p{
+	font-size: 16px;
+}
+#other-info{
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#other-info div>div{
+	padding-bottom: 3%;
+}
+
+/********************************               Privacy Police               **********************************/
+
+#privacy-police{
+	padding: 3% 10%;
+}
+
+/********************************               Terms               **********************************/
+
+#terms{
+	padding: 3% 10%;
+}
+
+/********************************               FAQ               **********************************/
+
+
+#faq{
+	padding: 5%;
+}
+.nav-pills{
+	border: none;
+}
+.nav-pills li{
+	margin: 2% 0%;
+	float: none;
+}
+.nav-pills>li>a{
+	background-color: #00B0F0;
+	color: white;
+	border-radius: 5px;
+	height: 50px;
+	font-size: 15px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	border: none;
+}
+.nav-pills>li>a:hover{
+	background-color: #92D050;
+}
+.tab-content h3{
+	text-align: center;
+}
+
+/********************************              Login               **********************************/
+
+#login{
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 4%;
+	margin-top: 1%;
+	background-color: #00B0F0;
+	border-radius: 5px;
+}
+#login h3{
+	padding-bottom: 2%;
+	color: white;
+}
+.login-page-google .btn{
+	background-color: #5C72D6;
+	color: white;
+	font-size: 17px;
+	padding: 0px 30px 0px 0px;
+}
+.login-page-google img{
+	background-color: white;
+	height: 40px;
+	width: 40px;
+	border-radius: 2px 0px 0px 2px;
+}
+.login-page-facebook .btn{
+	background-color: #3F51B5;
+	color: white;
+	font-size: 17px;
+	padding: 0px 30px 0px 0px;
+}
+.login-page-facebook img{
+	height: 41px;
+	width: 41px;
+}
+#login .btn:hover{
+	background-color: white;
+	color: #3F51B5;
+	font-weight: bold;
+	transition-duration: 0.3s;
+}
+#signup {
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+#signup button{
+	width: 100%;
+}
+#signup .btn:hover{
+	background-color: #92D050;
+	border-color: white;
+	color: white;
+	transition-duration: 0.3s;
+}
+#signup-seller{
+	text-align: center;
+	padding: 3% 11%;
+	border-radius: 5px;
+	border: 1px solid #CACACA;
+}
+#signup-seller p{
+	text-align: left;
+	line-height: 30px;
+}
+
+/********************************              Seller signup              **********************************/
+
+#seller-signup-form{
+	padding-right: 15%;
+	padding-left: 15%;
+}
+#seller-signup-submit{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#seller-signup-submit .btn{
+	width: 100px;
+	border-radius: 0px;
+}
+
+/********************************              Consumer signup              **********************************/
+
+#consumer-signup-form{
+	padding-right: 15%;
+	padding-left: 15%;
+}
+#consumer-signup-submit{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#consumer-signup-submit .btn{
+	width: 100px;
+	border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================
+				media queries
+==========================================*/
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+	.login .btn{
+		font-size: 12px;
+		height: 33px;
+	}
+	.facebook .btn{
+		font-size: 11px;
+	}
+	.google .btn{
+		font-size: 11px;
+	}
+	#sellers-go .btn{
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width: 1111px) and (min-width: 992px) {
+	#consumer-header-logo img{
+		width: 270px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	#temporary{
+		display: none;
+	}
+	#header{
+		text-align: center;
+    }
+	.login .btn{
+		float: none;
+		width: 80%;
+		height: 40px;
+	}
+	.facebook .btn{
+		float: none;
+		width: 80%;
+		height: 40px;
+	}
+	.google .btn{
+		width: 80%;
+		height: 40px;
+	}
+	#sellers-go div{
+		text-align: center;
+		float: none;
+	}
+	#sellers-go .btn{
+		width: 83%;
+		height: 40px;
+		margin-right: 0px;
+	}
+	#seller-info-menu div{
+		float: none;
+	}
+	.seller-login .btn{
+		float: none;
+		width: 100%;
+	}
+	#sellers-signup div{
+		float: none;
+		text-align: center;
+	}
+	#sellers-signup a{
+		float: none;
+	}
+	.nav-pills li{
+		float: left;
+		width: 31%;
+		font-size: 14px;
+	}
+	.nav-pills li a{
+		height: 60px;
+	}
+	.login-page-facebook .btn, .login-page-google .btn{
+		width: 100%;
+		margin-top: 5px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.ar-right{
+		background-image: url(../images/arrow-down.png);
+	}
+	.parallax{
+		background-size: 820px 830px;
+	}
+	#title h1{
+		font-size: 50px;
+	}
+	#title h3{
+		font-size: 20px;
+	}
+	#nav p{
+		font-size: 14px;
+	}
+	.nav-pills li{
+		float: left;
+		width: 46%;
+		font-size: 12px;
+	}
+	#footer *{
+		text-align: center;
+	}
+	#consumer-sidebar{
+		display: none;
+	}
+	#consumer-billing-info p{
+		text-align: center;
+	}
+	.temp{
+		display: none;
+	}
+	#consumer-search .input-group{
+		width: 100%;
+	}
+	#consumer-header #consumer-menu .navbar-inverse li{
+		float: right;
+		width: 150px;
+	}
+	.navbar-inverse .navbar-collapse{
+		border: none;
+	}
+	#consumer-menu{
+		margin-top: 10px;
+	}
+	#consumer-cart{
+		display: none;
+	}
+	#consumer-cart1{
+		display: inline;
+	}
+	
+}
