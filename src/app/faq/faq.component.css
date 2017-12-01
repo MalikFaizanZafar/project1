@@ -1,0 +1,26 @@
+#faq{
+	padding: 5%;
+}
+.nav-pills{
+	border: none;
+}
+.nav-pills li{
+	margin: 2% 0%;
+	float: none;
+}
+.nav-pills>li>a{
+	background-color: #00B0F0;
+	color: white;
+	border-radius: 5px;
+	height: 50px;
+	font-size: 15px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	border: none;
+}
+.nav-pills>li>a:hover{
+	background-color: #92D050;
+}
+.tab-content h3{
+	text-align: center;
+}
