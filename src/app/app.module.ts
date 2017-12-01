@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {RouterModule} from '@angular/router';
 
 
 import { AppComponent } from './app.component';
@@ -30,7 +31,19 @@ import { TermsComponent } from './terms/terms.component';
     TermsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot([
+      { path :'' , component: IndexComponent },
+      { path:'about-us' , component: AboutUsComponent },
+      { path: 'consumer-signup', component: ConsumerSignupComponent },
+      { path: 'faq' , component: FaqComponent },
+      { path: 'how-it-works' , component: HowItWorksComponent },
+      { path : 'login', component: LoginComponent },
+      { path: 'privacy-policy', component: PrivacyPolicyComponent },
+      { path: 'seller-signup' , component: SellerSignupComponent },
+      { path: 'sellers-info' , component: SellersInfoComponent },
+      { path: 'terms', component: TermsComponent}
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
