@@ -1,0 +1,46 @@
+/********************************               About Us Page               **********************************/
+
+/*========================================
+				Hi there!
+==========================================*/
+#about-intro{
+	text-align: center;
+	padding: 2% 20%;
+}
+#about-intro h4{
+	text-align: left;
+	line-height: 25px;
+	margin: 0px;
+}
+#about-intro h3{
+	margin: 0px;
+}
+
+/*========================================
+    What it means for you the shopper
+==========================================*/
+#about-shoppers{
+	text-align: center;
+	color: #1B1B1D;
+	background-color: #F0F0F0;
+	padding: 40px 0px;
+}
+#about-shoppers img{
+	border-radius: 50%;
+	width: 100%;
+}
+#about-shoppers div{
+	padding: 0% 3%;
+}
+/*========================================
+         Free Ad for a Discount
+==========================================*/
+#free-add{
+	text-align: center;
+	padding: 2% 15% 4% 15%;
+	background-color: #F0F0F0;
+}
+#free-add h4{
+	text-align: left;
+	line-height: 25px;
+}
