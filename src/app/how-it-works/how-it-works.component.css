@@ -1,0 +1,16 @@
+#how-it-works{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border-bottom: 1px solid black;
+}
+#how-it-works p{
+	font-size: 16px;
+}
+#other-info{
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#other-info div>div{
+	padding-bottom: 3%;
+}
