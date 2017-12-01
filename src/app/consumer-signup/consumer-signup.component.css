@@ -1,0 +1,12 @@
+#consumer-signup-form{
+	padding-right: 15%;
+	padding-left: 15%;
+}
+#consumer-signup-submit{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#consumer-signup-submit .btn{
+	width: 100px;
+	border-radius: 0px;
+}
